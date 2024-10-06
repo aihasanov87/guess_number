@@ -9,20 +9,20 @@ print('Угадайте число от 1 до 100')
 while True:
     # Получаем число от пользователя и сохраняем его в переменную. 
     # rjg rk erl we lwrgk wgwel;g wl;e gkwl;rgkwkltgjmwrl gkmflks gmsfg
-    guessqweqas_aksjj = int(input('Введите число: '))
+    guess = int(input('Введите число: '))
 
     # Если число меньше загаданного...
-    if guessqweqas_aksjj < number:
+    if guess < number:
         # ...выводим сообщение.
         print('Ваше число меньше того, что загадано.')
 
     # Если число больше загаданного...
-    if guessqweqas_aksjj > number:
+    elif guess > number:
         # ...выводим сообщение.
         print('Ваше число больше того, что загадано.')
 
     # Если число угадано...
-    if guessqweqas_aksjj == number:
+    elif guess == number:
         # ...прерываем выполнение программы и...
         break
 # ...выводим сообщение.
